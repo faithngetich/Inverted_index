@@ -1,0 +1,33 @@
+{
+  "name": "inverted_index",
+  "version": "1.0.0",
+  "description": "Generates an elastic search index",
+  "main": "invertedIndex.js",
+  "scripts": {
+    "test": "test",
+    "start": "node invertedIndex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faithngetich/Inverted_index.git"
+  },
+  "keywords": [
+    "inverted-index",
+    "elastic",
+    "search",
+    "index"
+  ],
+  "author": "Faith.ngetich@andela.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faithngetich/Inverted_index/issues"
+  },
+  "homepage": "https://github.com/faithngetich/Inverted_index#readme",
+  "dependencies": {
+    "natural": "^0.5.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
